@@ -9,7 +9,7 @@ function hanoiTowers(height, from, to, buf) {
     hanoiTowers(height - 1, buf, to, from);
     }
     
-    return counter;
+    return counterOfMovies;
 }
 
 console.log('Hanoi towers');
